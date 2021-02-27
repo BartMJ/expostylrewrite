@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(250, 250, 250); /*#40949e*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-con {
+    border: 1px whitesmoke solid;
+    /* border-radius: 5px 5px 0 0; */
+    
+}
+#main-con p {
+    text-align: justify;
+}
+#logo-con {
+    margin: auto;
+    margin-top: 1em;
+
+}
+#logo-con img {
+   
+    margin-top: 1em;
+}
+
+.row img {
+    width: 100%;
+    
+}
+.container {
+    
+    padding: 0 1.5em 0 1.5em;
+}
+
+.header {
+    /* background-color: whitesmoke; */
+    background: linear-gradient(90deg, rgba(64,148,144,1) 6%, rgba(223,223,223,1) 64%, rgba(255,255,255,1) 75%);
+    height: 39px;
+    
+}
+.header h1 {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    padding-left: 36px;
+    line-height: 36px;
+}
+#badge {
+    display: grid;
+    justify-content: center;
+}
+#badge img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#drop-nav {
+    position: absolute;
+    right: 28px;
+    top: 39px;
+    list-style: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0;
+    
+}
+#drop-nav a{
+    color: #000;
+    width: 200px;
+    display: block;
+    padding: 0 12px 0 12px;
+}
+
+#drop-nav a:hover {
+    text-decoration: none;
+    background-color: whitesmoke;
+ }
+.stopka {
+    background-color: #565656;
+    color: whitesmoke;
+    
+    font-size: 14px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 1em;
+    border: 1px solid whitesmoke;
+}
+.stopka p {
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+}
+.btn-primary {
+    float: right;
+    margin: 0.5em;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    color: yellow;
+}
+.btn-primary:hover {
+    background-color: #40949e;
+    border: 1px solid #40949e;
+}
+.btn-primary {
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.stands img {
+    opacity: 0.9;
+}
+.stands img:hover {
+    opacity: 1;
+}
+#cooperation img {
+    padding: 0 3em;
+}
+.text-indent {
+    text-indent: 50px;
+}
+
+.hero-image {
+    margin-top: 95px;
+    background-image: url('./img_ind/4.jpg');
+    background-size: cover;
+    background-position-y: 64%;
+    height: 600px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+}
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.50);
+    text-align: right;
+    position: relative;
+    top: 25%;
+    padding: 2em;
+    height: 300px;
+}
+.outer-navbar {
+    z-index: 990;
+    background-color: rgba(255, 255, 255, 0.88);
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    
+}
+#languages img {
+    width: 24px;
+}
+#languages {
+    float: right;
+    border-radius: 5px 5px 5px 5px;
+    width: 192px;
+}
+#languages a {
+    color: lightgray;
+    padding-left: 8px;
+    color: #565656;
+}
+#outer-nav {
+    position: relative;
+}
+#inner-nav {
+    position: absolute;
+    right: 0;
+    list-style: none;
+}
+#inner-nav a {
+    display:inline-block;
+    color: #565656;
+    padding: 0 8px 0 8px;
+    text-decoration: none;
+    
+}
+#inner-nav li {
+    display: inline-block;
+    height: 52.92px;
+    line-height: 40.92px;
+
+}
+.active {
+    border: 1px #565656 solid;
+    border-radius: 6px 6px 6px 6px;
+    height: 44px;
+}
+#inner-nav li:hover {
+    border-radius: 6px 6px 6px 6px;
+
+}
+#inner-nav a:hover {
+    display: block;
+    color: black;
+    border-radius: 6px 6px 6px 6px;
+}
+#burger-con {
+    position: relative;
+    bottom: 0;
+}
+#burger {
+    position: absolute;
+    margin: 12px;
+    right: 0;
+    display: none;
+    width: 24px;
+}
+#side-menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background-color: whitesmoke;
+    width: 30vw;
+    right: -20vw;
+    border: 1px solid #565656;
+    border-radius: 6px;
+    height: 40vh;
+}
+#side-menu a {
+    color: #565656;
+}
+
+#side-menu ul {
+    list-style: none;
+}
+#close {
+    padding: 12px;
+}
+@media (max-width: 992px) {
+    #inner-nav {
+        display: none;
+    }
+    #burger {
+        display: inline-block;
+    }
+}
