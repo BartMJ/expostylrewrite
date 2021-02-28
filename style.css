@@ -46,7 +46,7 @@ body {
 }
 #badge img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+    margin: 0 1em 0 1em;
 }
 #drop-nav {
     position: absolute;
