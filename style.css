@@ -14,19 +14,13 @@ body {
 #main-con p {
     text-align: justify;
 }
-#logo-con {
-    margin: auto;
-    margin-top: 1em;
 
-}
-#logo-con img {
-   
-    margin-top: 1em;
+.logo-con img {
+    width:100%;
 }
 
-.row img {
+#stands-home img {
     width: 100%;
-    
 }
 .container {
     
@@ -223,11 +217,22 @@ body {
 #close {
     padding: 12px;
 }
+/* #logo-krotkie {
+    display: none;
+} */
 @media (max-width: 992px) {
     #inner-nav {
         display: none;
     }
+    
     #burger {
         display: inline-block;
     }
+
+    /* #logo-krotkie {
+        display: block;
+    }
+    #logo-dlugie {
+        display: none;
+    } */
 }
