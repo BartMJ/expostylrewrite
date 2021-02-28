@@ -16,7 +16,7 @@ body {
 }
 
 .logo-con img {
-    width:100%;
+    width: 100%;
 }
 
 #stands-home img {
@@ -187,10 +187,11 @@ body {
 #burger-con {
     position: relative;
     bottom: 0;
+
 }
 #burger {
     position: absolute;
-    margin: 16px;
+    margin: 4px;
     right: 0;
     display: none;
     width: 20px;
@@ -225,7 +226,7 @@ body {
     }
     
     #burger {
-        display: inline-block;
+        display: inline;
     }
 
     /* #logo-krotkie {
@@ -233,5 +234,15 @@ body {
     }
     #logo-dlugie {
         display: none;
+    } */
+}
+.outer-navbar .container .row {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 760px) {
+    /* .logo-con img {
+        width: 420px;
     } */
 }
