@@ -151,9 +151,7 @@ body {
     padding-left: 8px;
     color: #565656;
 }
-#outer-nav {
-    position: relative;
-}
+
 #inner-nav {
     position: absolute;
     right: 0;
@@ -192,17 +190,18 @@ body {
 }
 #burger {
     position: absolute;
-    margin: 12px;
+    margin: 16px;
     right: 0;
     display: none;
-    width: 24px;
+    width: 20px;
 }
 #side-menu {
     display: none;
     position: absolute;
+    right: -10vw;
     z-index: 999;
     background-color: whitesmoke;
-    width: 30vw;
+    width: 40vw;
     border: 1px solid #565656;
     border-radius: 6px;
     height: 40vh;
