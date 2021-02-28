@@ -40,13 +40,11 @@ body {
     padding-left: 36px;
     line-height: 36px;
 }
-#badge {
-    display: grid;
-    justify-content: center;
-}
+
 #badge img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 1em 0 1em;
+    width: 90%;
 }
 #drop-nav {
     position: absolute;
@@ -99,13 +97,16 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .stands img {
+    margin: 1em 0 0 0;
     opacity: 0.9;
+    width: 100%;
 }
 .stands img:hover {
     opacity: 1;
 }
 #cooperation img {
-    padding: 0 3em;
+    padding: 0 1em;
+    width: 100%;
 }
 .text-indent {
     text-indent: 50px;
@@ -240,9 +241,11 @@ body {
     display: flex;
     justify-content: center;
 }
-
-@media (max-width: 760px) {
-    /* .logo-con img {
-        width: 420px;
-    } */
+/*  Extra small - phones */
+@media (max-width: 576px) {
+    .hero-image {
+        background-position-x: 40%;
+        background-position-y: 40%;
+        height: 600px;
+    }
 }
