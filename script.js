@@ -24,10 +24,19 @@ var currentScrollPos = window.pageYOffset;
 function toggleMenu() {
     if(!isMenuOpen) {
         sideMenu.style.display = "block"
+        setTimeout(() => {
+          sideMenu.style.width = "40vw"
+        }, 201)
         isMenuOpen = true
+
     } else {
-        sideMenu.style.display = "none"
+      sideMenu.style.width = "0"
+        setTimeout(() => {
+          sideMenu.style.display = "none"
+          
+        }, 201)
         isMenuOpen = false
+        
     }
 }
 function showNav() {
