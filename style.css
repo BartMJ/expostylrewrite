@@ -384,6 +384,7 @@ img.hover-shadow {
 
 .mySlides img {
   width: 100%;
+  margin: 1em;
 }
 .modal-content {
   width: 50%;
