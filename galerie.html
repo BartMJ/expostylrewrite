@@ -59,12 +59,8 @@
         </div>
     </div>
     </div><!--container-->
-
-
         <br>
   </div>
-    
-          
     <div class="hero-image">
         <div class="hero-text">
           <div class="container">
@@ -74,17 +70,101 @@
           </div>
         </div>
     </div> 
-
+    <br>
   <div class="container">
     <div class="header">
       <h1>Galerie</h1>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam at iusto sit quod dolor voluptatum, itaque illum consequuntur quae! Ducimus, magnam. Rem dignissimos iure, quo corporis repellat animi est aperiam?</p>
   </div>
+  <br>
+  <!-- Gallery section -->
+<section id="gallery">
 
-    <div class="container stopka">
-		<p>Wszelkie prawa zastrzeżone &copy; 2008-2021 Expo Styl</p>
+  <div class="container"><!-- Small images section start -->
+    <h4>Standardowe stoiska wystawiennicze</h4>
+    <div class="row">
+        <div class="col-md-3">
+          <img src="./img_std/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="col-md-3">
+          <img src="./img_std/2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="col-md-3">
+          <img src="./img_std/3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="col-md-3">
+          <img src="./img_std/4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+    </div><!-- Small images section end -->
+  </div>
+<br>
+  <div id="myModal" class="modal"><!-- Modal start -->
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content"><!-- Modal content start -->
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="./img_std/1.jpg" >
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="./img_std/2.jpg" >
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="./img_std/3.jpg" >
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="./img_std/4.jpg" >
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+    </div><!-- Modal content finish -->
+  </div><!-- Modal finish -->
+
+</section>
+  <!-- Gallery section end -->
+  <div class="stopka">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li>Stoiska standardowe</li>
+            <li>Maxima (standard plus)</li>
+            <li>Stoiska indywidualne</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+        <ul>
+          <li>Oferta</li>
+          <li>Dla organizatorów</li>
+          <li>Dla klientów indywidualnych</li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <ul>
+          <li>Kontakt</li>
+          <li>Biuro organizacyjno-projektowe</li>
+          <li>tel. (22) 256-71-53</li>
+          <li>Zaplecze techniczne, centrala</li>
+          <li>expostyl@expostyl.com</li>
+        </ul>
+        </div>
+      </div>
+      <p>Wszelkie prawa zastrzeżone &copy; 2008-2021 Expo Styl</p>
     </div>
+
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
